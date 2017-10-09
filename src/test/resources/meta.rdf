@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:pci-core="http://onto.wolterskluwer.com/pci/core/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:frbr="http://purl.org/vocab/frbr/core#"
+         xmlns:cw="http://wolterskluwer.com/ceres/content-warehouse-v1.0/"
+         xmlns:wkit="http://onto.wolterskluwer.it/omen/">
+   <rdf:Description rdf:about="http://doc.wolterskluwer.it/omen/44MA0002618703">
+      <rdf:type rdf:resource="http://onto.wolterskluwer.com/pci/core/BibliographicResource"/>
+      <rdf:type rdf:resource="http://purl.org/vocab/frbr/core#Work"/>
+      <dcterms:format rdf:resource="http://data.wolterskluwer.com/shared/resource/mime-type/html"/>
+      <dc:identifier>44MA0002618703</dc:identifier>
+      <dcterms:language rdf:resource="http://data.wolterskluwer.com/shared/resource/language/iso-639/ita"/>
+      <dcterms:title>T.A.R. VENETO Sez. III, 21-07-2017 (19-07-2017), n. 731</dcterms:title>
+      <pci-core:isAbout>
+         <rdf:Description rdf:about="http://data.wolterskluwer.it/omen/classification/i44_4_0_04180">
+            <dc:identifier>i44_4_0_04180</dc:identifier>
+            <wkit:hasModule>44</wkit:hasModule>
+            <wkit:hasSourceIndexType>4</wkit:hasSourceIndexType>
+            <wkit:hasSourceDocumentType>0</wkit:hasSourceDocumentType>
+            <wkit:hasClassificationValue>04180</wkit:hasClassificationValue>
+         </rdf:Description>
+      </pci-core:isAbout>
+      <dcterms:type>
+         <rdf:Description rdf:about="http://vocabulary.wolterskluwer.it/DocumentType/i2">
+            <dc:identifier>i1</dc:identifier>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Casi</skos:prefLabel>
+         </rdf:Description>
+      </dcterms:type>
+      <dcterms:type rdf:resource="http://vocabulary.wolterskluwer.it/DocumentFragmentType/i2"/>
+      <wkit:hasFragmentType rdf:resource="http://vocabulary.wolterskluwer.it/DocumentFragmentType/i5"/>
+      <pci-core:isAbout>
+         <rdf:Description rdf:about="http://data.wolterskluwer.it/omen/classification/i44_4_0_04180.01100">
+            <dc:identifier>i44_4_0_04180.01100</dc:identifier>
+            <wkit:hasModule>44</wkit:hasModule>
+            <wkit:hasSourceIndexType>4</wkit:hasSourceIndexType>
+            <wkit:hasSourceDocumentType>0</wkit:hasSourceDocumentType>
+            <wkit:hasClassificationValue>04180.01100</wkit:hasClassificationValue>
+         </rdf:Description>
+      </pci-core:isAbout>
+      <dcterms:accessRights rdf:resource="http://vocabulary.wolterskluwer.it/omen/AccessModule/i100"/>
+      <wkit:hasJurisprudenceAuthorityReference>
+         <rdf:Descriprion rdf:about="http://vocabulary.wolterskluwer.it/JurisprudenceAuthorityReference/025">
+            <dc:identifier>025</dc:identifier>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">T.A.R.</skos:prefLabel>
+         </rdf:Descriprion>
+      </wkit:hasJurisprudenceAuthorityReference>
+      <wkit:region>22</wkit:region>
+      <wkit:region_description>VENETO</wkit:region_description>
+      <wkit:city>http://vocabulary.wolterskluwer.it/City/Venezia</wkit:city>
+      <wkit:section>http://vocabulary.wolterskluwer.it/Section/003</wkit:section>
+      <wkit:section_description>III</wkit:section_description>
+      <dcterms:created>2017-07-19</dcterms:created>
+      <dcterms:issued>2017-07-21</dcterms:issued>
+      <wkit:hasOfficialNumber>731</wkit:hasOfficialNumber>
+      <wkit:hasPeriodicalReference>
+         <rdf:Description rdf:about="http://vocabulary.wolterskluwer.it/Periodical/800">
+            <dc:identifier>800</dc:identifier>
+            <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Massima redazionale</skos:prefLabel>
+            <dcterms:issued>2017</dcterms:issued>
+         </rdf:Description>
+      </wkit:hasPeriodicalReference>
+   </rdf:Description>
+</rdf:RDF>
